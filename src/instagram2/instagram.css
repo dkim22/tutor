@@ -1,0 +1,21 @@
+.heart {
+  font-size: 20px;
+}
+.heart-red {
+  color: red;
+}
+
+.picture-wrapper {
+  position: relative;
+  width: fit-content;
+}
+
+.picture-wrapper-heart::before {
+  content: "♥";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 60px;
+}
